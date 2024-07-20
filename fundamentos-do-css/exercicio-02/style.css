@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 20px;
+}
+
+ul{
+    width: 500px;
+    height: 500px;
+}
+
+ul > li{
+    height: 200px;
+    background-color: rgb(28, 25, 31);
+    margin: 20px;
+    color: #fff;
+    padding: 20px;
+}
