@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+header{
+    font-family: 'Times New Roman', Times, serif; /* Familia da fonte */
+    text-decoration: underline; /* Decoração do texto */
+    color: #d4640d;
+    text-align: justify; /* Alinhamento do texto */
+}
+
+h1{
+    font-size: 50px; /* Tamanho da fonte */
+    font-weight: bolder; /* Peso da fonte */
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    letter-spacing: 10px; /* Espaçamento entre as letras */
+    text-transform: lowercase;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.italic {
+    font-style: italic;
+}

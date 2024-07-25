@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #232323;
+    color: #fff;
+    padding: 20px;
+}
+
+section{
+    height: 100px;
+    background-color: bisque;
+}
+
+.box{
+    border: 1px solid #232323;
+    width:75px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.px {
+    height: 10px;
+}
+
+/* 16px -> 1rem */
+.rem {
+    height: 3rem;
+}
+
+/* Ajusta conforme a altura do conteudo dentro */
+.em {
+    font-size: 20px;
+    height: 3em;
+}
+
+.prct-33{
+    height: 33%;
+}
+
+.prct-66{
+    height: 66%;
+}
+
+.prct-100{
+    height: 100%;
+}
+
+.vh{
+    height: 30vh;
+}
+
+.vw{
+    width: 50vw;
+}
