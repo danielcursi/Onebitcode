@@ -1,0 +1,37 @@
+/* Aplica cor no segundo filho de li */
+li:nth-child(2){
+    color: #0ff;
+}
+/* Aplica cor nos impares */
+li:nth-child(2n-1){
+    color: #ff0800;
+}
+/* Aplica cor nos pares */
+li:nth-child(even){
+    color: rgb(0, 60, 255);
+}
+/* Afeito quando se passa o mouse */
+li:hover{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+/* Escreve testo antes do conteudo de todos os li */
+li::before{
+    content: "(Antes) ";
+}
+/* Escreve testo depois do conteudo de todos os li */
+li::after{
+    content: " (Depois)";
+}
+/* Aplica cor no primeiro filho de li */
+li:first-child{
+    color: blueviolet;
+}
+/* Aplica cor no ultimo filho de li */
+li:last-child{
+    color: tomato;
+}
+/* Aplica cor em todos menos no primeiro */
+li:not(:first-child){
+    color: coral;
+}
+
