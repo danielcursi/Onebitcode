@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila de espera</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <form id="form">
+        <h1>Fila de espera</h1>
+        <hr>
+        <br>
+        <label>Total de pacientes: </label>
+        <input type="text" id="totalPacientes" disabled style="width: 1.1rem; text-align: center;">
+        <br><br>
+        <button id="newPacient" type="button">Adicionar paciente</button>
+        <ul id="ul"></ul>
+        <br>
+        <button>Enviar à fila</button>
+        <button type="button" id="atenderPaciente">Atender paciente</button>
+        <button type="button" id="filaDePacientes">Pacientes na fila</button>
+    </form>
+    
+</body>
+</html>
