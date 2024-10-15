@@ -1,29 +1,34 @@
-const forms = document.getElementById("orderForm")
+const form = document.getElementById("orderForm")
 
-forms.addEventListener("submit", function(ev){
+form.addEventListener("submit", function (ev) {
+  ev.preventDefault()
 
-    ev.preventDefault()
+  const name = document.querySelector("input[name='name']").value
+  const address = document.querySelector("input[name='address']").value
+  const breadType = document.querySelector("select[name='breadType']").value
+  const main = document.querySelector("input[name='main']:checked").value
+  const observations = document.querySelector("textarea[name='observations']").value
 
-    const name = document.querySelector("input[name='name']").value
-    const address = document.querySelector("input[name='address']").value
-    const breadType = document.querySelector("select[name='breadType']").value
-    const main = document.querySelector("input[name='main']").value
-    const observation = document.querySelector("textarea[name='observations']").value
+  let salad = ""
+  document.querySelectorAll("input[name='salad']:checked").forEach(function (item) {
+    salad += " - " + item.value + "\n"
+  })
 
-    let salad = ''
-    document.querySelectorAll('input[name="salad"]:checked').forEach(function(item){
-        salad += " - " + item.value + "\n"
-    })
+  console.log({
+    name,
+    address,
+    breadType,
+    main,
+    salad,
+    observations
+  })
 
-    console.log({
-        name,
-        address,
-        breadType,
-        main,
-        salad,
-        observation
-    })
-
-    alert(`Nome: ${name} \nEndereço: ${address}\nTipo do pão: ${breadType}\nPrincipal: ${main}\nSalada: ${salad}\nObservação: ${observation}`)
-
+  alert(
+    "Pedido Realizado!" +
+    "\nNome do cliente: " + name +
+    "\nEndereço de entrega: " + address +
+    "\nTipo de pão: " + breadType +
+    "\nRecheio: \n - " + main + "\n" + salad +
+    "Observações: " + observations
+  )
 })
