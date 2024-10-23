@@ -21,9 +21,15 @@ while( opcao !== "3"){
             }
             break
         case "2":
-            for(let i = 0; i < imoveis.length; i++){
-                alert("Nome: " + imoveis[i].nome + "\nQuartos: " + imoveis[i].quartos + "\nBanheiros: " + imoveis[i].banheiros + "\nGaramem: " + imoveis[i].garagem)
-            }
+            // for(let i = 0; i < imoveis.length; i++){
+            //     alert("Nome: " + imoveis[i].nome + "\nQuartos: " + imoveis[i].quartos + "\nBanheiros: " + imoveis[i].banheiros + "\nGaramem: " + imoveis[i].garagem)
+            // }
+            imoveis.forEach((item) => {
+            alert(`Nome: ${item.nome}
+            Quartos: ${item.quartos}
+            Banheiro: ${item.banheiros}
+            Garagem: ${item.garagem}`)
+            })
             break
         case "3":
             alert("Encerrando!")
