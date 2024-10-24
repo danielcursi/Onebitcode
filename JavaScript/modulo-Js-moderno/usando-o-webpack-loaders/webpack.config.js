@@ -6,7 +6,9 @@ module.exports = {
     // definindo o modulo de desenvolvimento (development) ou produção (production)
     mode: 'development',
     // Indicando para usar os modulos de css
+    // modulo
     module: {
+        // regras
         rules: [{
             // pesquisando por arquivos que terminem com .css
             test: /\.css$/,
