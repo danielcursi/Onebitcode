@@ -6,6 +6,7 @@
 }
 body{
     background-color: #1f1b1b;
+    padding: 1rem 2rem;
 }
 
 h1{
@@ -15,13 +16,16 @@ h1{
 .galery{
     display: flex;
     flex-wrap: wrap;
+    gap: .125rem;
     justify-content: center;
     width: 100%;
+    
 }
 
 .galery img{
     width: 10rem;
     height: 10rem;
     flex-grow: 1;
+    object-fit: cover;
 }
 
