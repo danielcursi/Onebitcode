@@ -42,6 +42,10 @@ document.getElementById('btn-calculate').addEventListener('click', () => {
     btn.innerText = 'remover'
     btn.type = 'button'
 
+    btn.addEventListener('click', () => {
+        ul.removeChild(li)
+    })
+
     li.append(span, btn)
     ul.appendChild(li)
 
