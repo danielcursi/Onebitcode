@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #bbb7c6;
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: minmax(5rem, 10rem) 1fr;
+}
+
+header{
+    background-color: #00409f;
+    color: #fff;
+    font-weight: 600;
+    padding: 1rem;
+    grid-column: span 2;
+}
+
+.sidebar{
+    background-color: #482f3e;
+    grid-column: 1;
+    grid-row: 2 / 4;
+}
+
+.sidebar ul{
+    padding: 1rem;
+}
+
+.sidebar li{
+    padding: .2rem;
+    list-style: none;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.sidebar a:hover{
+    text-decoration: underline;
+}
+
+.content{
+    grid-column: 2;
+    grid-row: 2 / 3;
+
+    display: grid;
+    margin: 1rem;
+}
+
+.stats-section{
+    display: grid;
+    grid-template-columns: repeat(4, 11rem);
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.stats-section .card{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+    padding: 1rem;
+    text-align: center; 
+}
+
+.stats-section .card h3{
+    font-size: .8rem;
+    color: #005dc3;
+}
+
+.stats-section .card p{
+    font-weight: 600;
+    padding-top: .4rem;
+}
+
+.chart-section{
+    background-color: #fff;
+    border-radius: 5px;
+    display: grid;
+    padding: .5rem;
+}
+
+.chart-section h2{
+    font-size: 1rem;
+    padding-bottom: .5rem;
+}
+
+.chart-section .charts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: .6rem;
+}
+
+.chart-section .charts .chart-placeholder{
+    background-color: #a09cac;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-section .charts #chart4{
+    grid-column: 1 / 4;
+}
+
+.table-section{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: .5rem;
+}
+
+.table-section h2{
+    font-size: 1rem;
+}
+
+.table-section table{
+    display: grid;
+    width: 100%;
+}
+
+.table-section table thead tr{
+    background-color: #005dc3;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: start;
+    margin: .4rem 0;
+}
+
+.table-section table tbody tr{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: start;
+    margin: .4rem 0;
+}
+
+
+footer{
+    background-color: #00409f;
+    color: #fff;
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+    padding: 1rem;
+}
