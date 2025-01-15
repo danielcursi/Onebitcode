@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+    --background-white: #ffffff;
+    --background-light: #e0e0e0;
+    --main-color: #6c63ff;
+    --background-dark: #2c2c2e;
+    --background-black: #070707;
+}
+
+body{
+    background-color: var(--background-dark);
+}
+
+.hero{
+    background: url(../img/principal.webp) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-content{
+    color: var(--background-white);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero-content h1{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.hero-content p{
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.hero-content .btn{
+    background-color: var(--main-color);
+    border-radius: 5px;
+    color: var(--background-white);
+    font-weight: 400;
+    padding: .5rem 1.2rem;
+    text-decoration: none;
+}
+
+.hero-content .btn:hover{
+    background-color: #9f9bec;
+}
+
+.speakers{
+    color: var(--background-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speakers h2{
+    padding: 2rem;
+}
+
+.speakers .speakers-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.speakers .speaker-card{
+    background-color: var(--background-black);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 90vw;
+    padding: 1rem;
+}
+
+.speakers .speaker-card img{
+    border-radius: 50%;
+}
+
+.schedule{
+    color: var(--background-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.schedule h2{
+    padding: 4rem;
+}
+
+.schedule .schedule-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.schedule-grid .schedule-item{
+    background-color: var(--background-black);
+    border-radius: 5px;
+    width: 90vw;
+    padding: 1.5rem 1rem;
+}
+
+.schedule-grid .schedule-item h3{
+    padding-bottom: 1.5rem;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.newsletter .newsletter-grid{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.newsletter-grid .newsletter-image img{
+    width: 90%;
+    padding: 1rem;
+}
+.newsletter-grid .newsletter-text{
+    color: var(--background-white);
+}
+
+.newsletter-grid .newsletter-text h2{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    line-height: 2.8rem;
+}
+
+.newsletter-grid .newsletter-text p{
+    padding-bottom: 1rem;
+    color: var(--background-light);
+    line-height: 1.5rem;
+}
+
+.newsletter-form .form-group{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-bottom: 1rem;
+}
+
+.newsletter-form .form-group input{
+    background-color: var(--background-black);
+    border-color: #49494d;
+    border-radius: 5px;
+    color: var(--background-white);
+    padding: .5rem;
+}
+
+.newsletter-form .btn{
+    background-color: var(--main-color);
+    border-radius: 5px;
+    border: none;
+    color: var(--background-white);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: .5rem 1.2rem;
+    text-decoration: none;
+}
+
+.newsletter-form .btn:hover{
+    background-color: #9f9bec;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    color: var(--background-white);
+}
+
+.footer a{
+    background-color: var(--main-color);
+    border-radius: 5px;
+    color: var(--background-white);
+    padding: .5rem 1.2rem;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    background-color: #9f9bec;
+}
+
+@media screen  and (min-width: 700px){
+    .speakers{
+        padding: 1rem;
+    }
+
+    .speakers .speakers-grid{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .speakers-grid .speaker-card{
+        width: 29vw;
+        text-align: center;
+    }
+
+    .schedule h2{
+        padding: 2.5rem;
+    }
+
+    .schedule .schedule-grid{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .schedule-grid .schedule-item{
+        width: 45%;
+    }
+
+    .newsletter .newsletter-grid{
+        flex-direction: row;
+        padding-top: 2rem;
+        width: 100%;
+    }
+
+    .newsletter-grid .newsletter-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        padding: 1.5rem;
+    }
+
+    .newsletter-grid .newsletter-image img{
+        max-width: 30rem;
+    }
+
+    .newsletter-grid .newsletter-text{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        width: 50%;
+        padding: .5rem;
+    }
+
+    .newsletter-grid .newsletter-text h2{
+        text-align: start;
+        font-size: 1.5rem;
+    }
+
+    .newsletter-grid .newsletter-text p{
+        text-align: start;
+    }
+
+    .newsletter-text .newsletter-form{
+        width: 80%;
+    }
+
+    .newsletter-text .newsletter-form .btn ,.form-group label{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 860px) {
+     .schedule-grid .schedule-item{
+        padding: .5rem;
+     }
+}
