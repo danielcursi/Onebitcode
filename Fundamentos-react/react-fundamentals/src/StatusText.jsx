@@ -1,0 +1,1 @@
+export default () => <h2>Current status: {true ? "True" : "False"}</h2>
