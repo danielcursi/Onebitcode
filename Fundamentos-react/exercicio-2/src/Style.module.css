@@ -1,0 +1,41 @@
+
+.mainContent{
+    background-color: #D6E1E6;
+    border-radius: 1rem;
+    display: flex;
+    height: 30rem;
+    max-width: 50rem;
+    gap: 4rem;
+    margin: 2rem auto;
+    padding: 4rem;
+}
+
+.poster{
+    border: 8px solid black;
+    box-shadow: 0px 24px 32px -16px rgba(0, 0, 0, 0.4);
+}
+
+.contentPoster h1{
+    padding-bottom: 2rem;
+}
+
+.contentPoster p{
+    text-align: justify;
+    line-height: 1.4rem;
+    padding-bottom: 2rem;
+}
+
+.contentPoster button{
+    background-color: #191a1d;
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    padding: .8rem 1rem;
+    transition: .3s;
+}
+
+.contentPoster button:hover{
+    cursor: pointer;
+    margin-left: .5rem;
+}
