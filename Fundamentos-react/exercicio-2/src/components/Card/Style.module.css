@@ -24,18 +24,3 @@
     line-height: 1.4rem;
     padding-bottom: 2rem;
 }
-
-.contentPoster button{
-    background-color: #191a1d;
-    border: none;
-    border-radius: 1rem;
-    color: #fff;
-    font-size: 1rem;
-    padding: .8rem 1rem;
-    transition: .3s;
-}
-
-.contentPoster button:hover{
-    cursor: pointer;
-    margin-left: .5rem;
-}
