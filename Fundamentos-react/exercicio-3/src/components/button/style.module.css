@@ -1,0 +1,13 @@
+.estilo {
+    background: linear-gradient(90deg, rgba(65, 141, 208, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 8rem;
+    height: 2.5rem;
+    cursor: pointer;
+}

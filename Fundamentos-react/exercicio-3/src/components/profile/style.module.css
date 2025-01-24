@@ -1,0 +1,59 @@
+.containerCard{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.445);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23rem;
+    padding: 1.5rem 0;
+}
+
+.perfilTop{
+    text-align: center;
+}
+
+.img{
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.342);
+    width: 8rem;
+}
+
+.containerCard h2{
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.description{
+    width: 100%;
+}
+
+.description p{
+    border-top: 1px solid #418DD0;
+    padding: .5rem;
+    text-align: center;
+}
+
+.description p:last-child{
+    border-bottom: 1px solid #418DD0;
+}
+
+.Buttons{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: .5rem;
+}
+
+.Buttons ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Buttons li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: .5rem;
+}
