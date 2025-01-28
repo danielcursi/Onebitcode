@@ -15,9 +15,9 @@ export default function Profile(props){
             </div>
             <div className={style.Buttons}>
                 <ul>
-                    <li><Button text="GitHub" links="https://google.com"/></li>
-                    <li><Button text="Linkedin"/></li>
-                    <li><Button text="Instagran"/></li>
+                    <li><Button text="GitHub" links="https://github.com/danielcursi" /></li>
+                    <li><Button text="Linkedin" links="https://www.linkedin.com/in/danielcursi/" /></li>
+                    <li><Button text="Instagran" links="https://www.instagram.com/daniel_cursii/" /></li>
                 </ul>
             </div>
         </div>
