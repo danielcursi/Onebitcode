@@ -4,7 +4,6 @@ export default function Title(props){
     return(
         <h2 className={Style.wrapper}>
             {props.children}
-            <button>Follow</button>
         </h2>
     )
 }
