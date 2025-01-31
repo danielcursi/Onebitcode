@@ -18,6 +18,7 @@ export default function sectionGenerator() {
     const [password, setPassword] = useState('')
     function handGeneratePassword(){
         setPassword(getPassword())
+        setTextCopied('Copiar')
     }
     return (
         <div className={styles.section}>
