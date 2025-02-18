@@ -14,7 +14,7 @@ export default function App(){
       content: coment,
       contentAt: new Date()
     }
-
+    
     setComents((state) => [newComment, ...state])
     setEmail("")
     setComent("")
