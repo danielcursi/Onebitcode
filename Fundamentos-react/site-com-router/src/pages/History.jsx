@@ -11,7 +11,7 @@ export default function History() {
                 <p>Sua primeira história foi uma experiência. Lee, que além de escritor era o editor das revistas, precisava da aprovação de Martin Goodman, o dono da editora – que na época ainda se chamava oficialmente Atlas, embora a Marvel Comics já fosse o principal selo de quadrinhos da companhia. Depois de muitos argumentos, Goodman consentiu a publicação da HQ, na última edição de Amazing Fantasy.</p>
                 <p>O Homem-Aranha teve muitos pais e diversas influências. Segundo Lee, uma delas foi o herói pulp The Spider (O Aranha, cuja identidade secreta era Richard Wentworth). O autor também declarou em diversas entrevistas que a ideia surgiu quando viu uma aranha escalar uma parede. Anos depois, contudo, ele mesmo colocou em dúvida esta última observação, dizendo que havia contado isso tantas vezes que já não sabia mais se era realmente verdade.</p>
             </div>
-            <div style={{display: "flex", justifyContent: "center", margin: "3rem"}}>
+            <div className="img" style={{display: "flex", justifyContent: "center", margin: "3rem"}}>
                 <img src={images.StanLee} alt="" style={{maxWidth: "20rem", height: "25rem"}}/>
                 <img src={images.TheSpider} alt="" style={{maxWidth: "20rem", height: "25rem"}}/>
             </div>
@@ -23,7 +23,7 @@ export default function History() {
                 <p>Por outro lado, o desenhista Steve Ditko declarou que Lee gostava do nome Hawkman (Gavião Negro, da DC Comics, que significa, literalmente, Homem-Falcão) e foi isso que o motivou a escolher Homem-Aranha.</p>
                 <p>Na opinião do especialista Mark Evanier, é muito provável que uma das razões pelas quais o personagem foi modificado, resultando no aracnídeo que conhecemos hoje, tenha sido uma intervenção editorial de Goodman. Ele queria evitar semelhanças com The Fly, publicado por um de seus concorrentes, e um possível processo jurídico. Ditko havia mencionado essas semelhanças a Stan Lee, levando o editor a conversar com Kirby sobre o assunto.</p>
             </div>
-            <div style={{display: "flex", justifyContent: "center", margin: "3rem"}}>
+            <div className="img" style={{display: "flex", justifyContent: "center", margin: "3rem"}}>
                 <img src={images.TheFly} alt="" style={{maxWidth: "20rem", height: "25rem"}}/>
                 <img src={images.SilverSpider} alt="" style={{maxWidth: "20rem", height: "25rem"}}/>
             </div>
