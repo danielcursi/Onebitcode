@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instalação e Uso do Bootstrap</title>
+  <script type="module" src="js/main.js"></script>
+</head>
+
+<!-- bg-light - background light-->
+<body class="bg-light">
+    <!-- p -> padding de 1 a 5 -->
+  <div class="container p-5">
+    <h1>Título Principal (H1)</h1>
+    <h2>Subtítulo (H2)</h2>
+    <h3>Seção menor (H3)</h3>
+    <h4>Subseção (H4)</h4>
+    <h5>Detalhes (H5)</h5>
+    <h6>Notas (H6)</h6>
+
+    <p>Este é um parágrafo de exemplo. Você pode <strong>destacar texto</strong> em negrito ou <em>itálico</em>.</p>
+
+    <p>Aqui está um <a href="#">link de exemplo</a> para testar os estilos de links.</p>
+
+    <h2>Listas</h2>
+    <ul>
+        <!-- cor azul -->
+      <li class="text-primary">Item da lista não ordenada 1</li>
+      <!-- m -> margin 
+       de 1 a 5 
+       mt margin-top
+       mb margin bottom
+       ms margin start
+       me margin end
+       -->
+      <li class="m-4">Item da lista não ordenada 2</li>
+      <li class="mb-5">Item da lista não ordenada 3</li>
+    </ul>
+    <ol>
+        <!-- cor vermelho -->
+      <li class="text-danger">Item da lista ordenada 1</li>
+      <!-- cor verde -->
+      <li class="text-success">Item da lista ordenada 2</li>
+      <li>Item da lista ordenada 3</li>
+    </ol>
+
+    <h2>Imagem</h2>
+    <img src="https://unsplash.it/1280/360" alt="Imagem de Exemplo" class="img-fluid w-100">
+
+    <h2>Tabela</h2>
+    <!-- estilizando tabela -->
+    <table class="table">
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Cidade</th>
+      </tr>
+      <tr>
+        <td>Ana</td>
+        <td>25</td>
+        <td>São Paulo</td>
+      </tr>
+      <tr>
+        <td>João</td>
+        <td>30</td>
+        <td>Rio de Janeiro</td>
+      </tr>
+    </table>
+
+    <h2>Formulário</h2>
+    <form>
+        <!-- estilizando inputs -->
+      <label for="nome">Nome:</label>
+      <input class="form-control" type="text" id="nome" name="nome">
+
+      <label for="email">Email:</label>
+      <input class="form-control" type="email" id="email" name="email">
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea class="form-control" id="mensagem" name="mensagem"></textarea>
+
+      <!-- estilizando button com cor verde e margin top-->
+      <button class="btn btn-success mt-3" type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+
+</html>
