@@ -1,11 +1,12 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.8;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,40 +24,20 @@ a:hover {
 }
 
 body {
-  margin: 0;
   display: flex;
-<<<<<<< HEAD
-  place-items: start;
-  padding: 1rem;
-=======
-  padding: 2rem;
->>>>>>> d30f828325db4e3b0ee9940f73792277b6f200fa
-  min-width: 320px;
+  justify-content: center;
+  padding: 1rem 8rem;
   min-height: 100vh;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2.5rem;
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+p{
+  font-size: 1.2rem;
+  text-align: justify;
 }
 
 @media (prefers-color-scheme: light) {
@@ -69,5 +50,28 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@media (max-width: 720px){
+  body{
+    padding: 1rem 4rem;
+    padding: 2rem;
+  }
+  div p {
+    line-height: 2;
+  }
+  .img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .img > img{
+    width: 100vw;
+    margin-bottom: 1rem;
+  }
+  #root{
+    width: 100%;
   }
 }

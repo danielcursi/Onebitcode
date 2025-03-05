@@ -25,12 +25,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-<<<<<<< HEAD
-  place-items: start;
-  padding: 1rem;
-=======
   padding: 2rem;
->>>>>>> d30f828325db4e3b0ee9940f73792277b6f200fa
   min-width: 320px;
   min-height: 100vh;
 }
