@@ -1,0 +1,50 @@
+Sistema: linux
+
+Arquitetura: x64
+
+Processador: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+
+Tempo-de-atividade: 277850milessegundos
+
+Uso-da-memoria: 8.88
+
+Sistema: linux
+
+Arquitetura: x64
+
+Processador: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+
+Tempo-de-atividade: 277980milessegundos
+
+Uso-da-memoria: 8.88
+
+Sistema: linux
+
+Arquitetura: x64
+
+Processador: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+
+Tempo-de-atividade: 278220milessegundos
+
+Uso-da-memoria: 8.88
+
+Sistema: linux
+
+Arquitetura: x64
+
+Processador: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+
+Tempo-de-atividade: 278410milessegundos
+
+Uso-da-memoria: 8.88
+
+Sistema: linux
+
+Arquitetura: x64
+
+Processador: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+
+Tempo-de-atividade: 278450milessegundos
+
+Uso-da-memoria: 8.88
+
