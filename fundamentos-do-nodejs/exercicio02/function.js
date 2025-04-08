@@ -16,7 +16,7 @@ export function infoSystem(){
 
         const fullpath = path.join(__dirname, "log", "log.txt")
 
-        dadosSystem += `Sistema: ${os.platform()}\n\nArquitetura: ${os.arch()}\n\nProcessador: ${os.cpus()[0].model}\n\nTempo-de-atividade: ${os.cpus()[0].times.user}milessegundos\n\nUso-da-memoria: ${(os.freemem() / 1024 / 1024 / 1024 ).toFixed(2)}GB\n\n`
+        dadosSystem += `Sistema: ${os.platform()}\n\nArquitetura: ${os.arch()}\n\nProcessador: ${os.cpus()[0].model}\n\nTempo-de-atividade: ${os.uptime()}\n\Total-da-memoria: ${(os.totalmem() / 1024 / 1024 / 1024 ).toFixed(2)}GB\n\n`
 
         fs.writeFile(fullpath, dadosSystem, "utf-8", (error) => {
             if(error){
